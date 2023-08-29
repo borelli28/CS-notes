@@ -15,3 +15,19 @@ Dumpster diving:
 	
 Watering hole attacks:
 	- Attackers instead of attacking an organization systems, will find a target where individuals from that organizations visit or use. For example, sandwich shop restaurant app get's hacked and every individual from that organization that orders from the app gets infected.
+	
+Malware:
+	- Malware is malicious software.
+	
+	- Viruses: Malware that reproduce itself with user interaction with the malware.
+		- Fileless viruses: A stealth attack virus where no file is stored on the victim computer, the malware is stored in RAM. For example; User clicks on a link on an email, website exploits flash, java, windows vulnerability, launches and downloads payload in RAM, run powershell scripts and execute attacks on objective, add an auto-start to Registry for persistence.
+	
+	- Worms: Malware that self replicates but does not need user interaction. Typically uses network transmissions.
+	
+	- Ransomware: Encrypts data.
+	
+	- Trojans: Software that pretends to be a legit software app.
+		- RAT(remote access trojans): Remote administration tool that gives the attacker control of the device.
+		
+	- Rootkit: Modifies core system files, part of the kernel.
+		- Secure boot(UEFI): It will check the BIOS for any changes, if it detects a change it will not boot the BIOS.
