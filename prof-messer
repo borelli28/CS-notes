@@ -31,3 +31,48 @@ Malware:
 		
 	- Rootkit: Modifies core system files, part of the kernel.
 		- Secure boot(UEFI): It will check the BIOS for any changes, if it detects a change it will not boot the BIOS.
+		
+Physical attacks:
+	- Malicious USB cable: Looks like a normal USB but tells the OS that is a HID(human interface device), and then may start writing commands to download malware.
+	
+	- Malicious flash drive: may include malicious files or may act as a HID and type command to download malware. It may also act as a WAP to allow other devices to gain access to your internal network.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
