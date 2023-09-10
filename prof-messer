@@ -37,7 +37,10 @@ Physical attacks:
 	
 	- Malicious flash drive: may include malicious files or may act as a HID and type command to download malware. It may also act as a WAP to allow other devices to gain access to your internal network.
 		
-		
+Cryptographic attacks:
+	- Birthday attacks: Hash collisions, because two different values hash to the same hash.
+	
+	- Downgrade attacks: Force systems to downgrade their security by using a weaker encryption algorithm.
 		
 		
 		
