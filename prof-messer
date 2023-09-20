@@ -41,6 +41,8 @@ Cryptographic attacks:
 	- Birthday attacks: Hash collisions, because two different values hash to the same hash.
 	
 	- Downgrade attacks: Force systems to downgrade their security by using a weaker encryption algorithm.
+	
+Privilege escalation: A vulnerability is exploited in the system to gain a higher level access to the system.
 		
 		
 		
