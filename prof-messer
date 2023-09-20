@@ -43,7 +43,10 @@ Cryptographic attacks:
 	- Downgrade attacks: Force systems to downgrade their security by using a weaker encryption algorithm.
 	
 Privilege escalation: A vulnerability is exploited in the system to gain a higher level access to the system.
-		
+
+Cross site scripting(XSS): Information from one site could be shared with another.
+	- Reflected: Web site allows scripts to run in user input. The attacker emails a link that runs a script that sends credentials/session/cookies to the attacker.
+	- Stored: Attacker posts a message to a social network with a malicious payload. It is now persistent everyone gets the payload.
 		
 		
 		
