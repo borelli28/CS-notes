@@ -48,7 +48,10 @@ Cross site scripting(XSS): Information from one site could be shared with anothe
 	- Reflected: Web site allows scripts to run in user input. The attacker emails a link that runs a script that sends credentials/session/cookies to the attacker.
 	- Stored: Attacker posts a message to a social network with a malicious payload. It is now persistent everyone gets the payload.
 		
-		
+Code injection: When attacker adds their own information into a data stream.
+		- SQL injection: Attacker modifies queries.
+		- XML injection: Attacker modifies requests.
+		- DLL injection: A windows library containing code and data. It involves inserting or injecting a DLL file into the address space of a running process, this way the DLL gets executed by the process.
 		
 		
 		
