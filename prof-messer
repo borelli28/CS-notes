@@ -53,7 +53,10 @@ Code injection: When attacker adds their own information into a data stream.
 		- XML injection: Attacker modifies requests.
 		- DLL injection: A windows library containing code and data. It involves inserting or injecting a DLL file into the address space of a running process, this way the DLL gets executed by the process.
 		
-		
+Replay attack: Attacker gather raw network data and use the information to mimic a legit system in the network.
+	- Pass the hash: Attacker captures the hash of a user password during traffic, then it send packets in the network using this hash to authenticate itself.
+	
+	Encryption(TLS) prevents replays attacks by encrypting the network traffic.
 		
 		
 		
