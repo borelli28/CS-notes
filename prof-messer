@@ -58,7 +58,7 @@ Replay attack: Attacker gather raw network data and use the information to mimic
 	
 	Encryption(TLS) prevents replays attacks by encrypting the network traffic.
 		
-		
+Cross site request forgery(CSRF): Takes advantage of the user browser sessions. The attacker may sent a hyperlink with a post request to a website the user is logged in, there for the request is initiated by the user but without their authorization.
 		
 		
 		
