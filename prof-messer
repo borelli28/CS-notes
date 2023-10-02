@@ -69,8 +69,11 @@ Other app attacks
 		- Integer overflow: Attacker adds a larger number than it's expected causing a buffer overflow.
 	
 	Directory traversal: Attacker is able to read files from a web server that are outside of the website file directory by traversing(../../..).	
-		
-	API attacks: Can expose sensitive data, DoS, intercepted communications, privileged access.
+	
+	Resource exhaustion
+		- API attacks: Can expose sensitive data, DoS, intercepted communications, privileged access.
+		- ZIP bomb: 42KB file that when unzip will uncompressed to 4.5 petabytes.
+		- DHCP starvation: Attacker floods a network with IP address requests and DHCP runs out of addresses.
 		
 		
 		
