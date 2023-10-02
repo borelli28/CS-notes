@@ -61,7 +61,12 @@ Replay attack: Attacker gather raw network data and use the information to mimic
 Cross site request forgery(CSRF): Takes advantage of the user browser sessions. The attacker may sent a hyperlink with a post request to a website the user is logged in, there for the request is initiated by the user but without their authorization.
 		
 Race condition: Two conditions execute at the same time, which can causes unintended outputs. Developers can mitigate this by consider every possible scenario and developing the software based on this knowledge.
-	
+
+Other app attacks
+	Memory vulnerabilities
+		- Memory leak: Unused memory is not properly released and it begins to slowly grow in size until system crashes.
+		- Null pointer dereference: Attacker change the pointer to refer to nothing and the application crash and debug information is displayed.
+		- Integer overflow: Attacker adds a larger number than it's expected causing a buffer overflow.
 		
 		
 		
