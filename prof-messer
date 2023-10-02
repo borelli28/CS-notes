@@ -75,6 +75,8 @@ Other app attacks
 		- ZIP bomb: 42KB file that when unzip will uncompressed to 4.5 petabytes.
 		- DHCP starvation: Attacker floods a network with IP address requests and DHCP runs out of addresses.
 		
+Rogue access point: Unauthorized wireless access point that may be used as a backdoor. By using 802.1X(Network access control) you can mitigate this attack by requiring authentication to the network.
+		
 		
 		
 		
