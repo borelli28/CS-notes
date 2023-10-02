@@ -70,7 +70,7 @@ Other app attacks
 	
 	Directory traversal: Attacker is able to read files from a web server that are outside of the website file directory by traversing(../../..).	
 		
-		
+	API attacks: Can expose sensitive data, DoS, intercepted communications, privileged access.
 		
 		
 		
