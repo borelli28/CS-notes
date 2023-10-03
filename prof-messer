@@ -77,8 +77,8 @@ Other app attacks
 		
 Rogue access point: Unauthorized wireless access point that may be used as a backdoor. By using 802.1X(Network access control) you can mitigate this attack by requiring authentication to the network.
 		
-		
-		
+Bluejacking: Attacker sends unsolicited messages to another device via Bluetooth.
+	Bluesnarfing: Attacker access a bluetooth-enabled device and transfer data. This vulnerability was patched on 2003.
 		
 		
 		
