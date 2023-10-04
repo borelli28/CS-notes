@@ -81,6 +81,14 @@ Bluejacking: Attacker sends unsolicited messages to another device via Bluetooth
 	Bluesnarfing: Attacker access a bluetooth-enabled device and transfer data. This vulnerability was patched on 2003.
 	
 Wireless disassocitation attacks: Attacker deauthenticate a wireless access point to cause a DoS attack.
+
+Wireless jamming
+	Different types:
+		- Constant random bits/constant legitimate frames.
+		- Data sent at random times - random data and legitimate frames
+		- Reactive jamming: Jamming only occurs when somebody tries to communicate through the frequency.
+	
+	Radio frequency(RF) jamming: DoS attack that prevents wireless communications. It works by transmitting interfering wireless signals to decrease the signal-to-noise ratio at the receiving device, for which the receiving device cannot hear the good signal.
 		
 		
 		
