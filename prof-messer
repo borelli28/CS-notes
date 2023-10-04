@@ -90,8 +90,20 @@ Wireless jamming
 	
 	Radio frequency(RF) jamming: DoS attack that prevents wireless communications. It works by transmitting interfering wireless signals to decrease the signal-to-noise ratio at the receiving device, for which the receiving device cannot hear the good signal.
 		
-		
-		
+RFID and NFC attacks
+	RFID(Radio frequency identification): Works with a tag that transmit an ID when it receives a radio energy.
+		Attacks:
+			- Data capture: Attacker can view communications and or do a replay attack.
+			- Spoof the reader: Attacker write their own data into the tag.
+			- DoS: Signal jamming.
+			- Decrypt communication: Many default keys are on Google.
+			
+	NFC(Near field communication): Two way wireless communication that builds on RFID, which is one way.
+		Attacks:
+			- Remote capture: Attacker may be able to capture information if he is within 10 meters of the active device.
+			- Frequency jamming: Attacker may jammed the communication and cause a DoS.
+			- Relay/Replay attack
+			- Loss of RFC device control: If the device is lost of stolen.
 		
 		
 		
