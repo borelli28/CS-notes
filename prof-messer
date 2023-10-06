@@ -104,6 +104,9 @@ RFID and NFC attacks
 			- Frequency jamming: Attacker may jammed the communication and cause a DoS.
 			- Relay/Replay attack
 			- Loss of RFC device control: If the device is lost of stolen.
+			
+Man-in-the-middle(On-path attack) attack: Attacker redirects your traffic to the final destination and you never know that the traffic was redirected, this way the attacker has all the information of the traffic.
+	- ARP poisoning: On-path attack on the local IP subnet. The attacker responds to an ARP request with his MAC address to receive the network traffic going to that IP in the subnet.
 		
 		
 		
