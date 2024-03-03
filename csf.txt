@@ -1,1 +1,19 @@
+NIST CYBERSECURITY FRAMEWORK 2.0
 
+
+The CSF outlines specific outcomes that organizations can achieve to address risk.
+
+- Govern:
+    The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.
+    
+    - Understand and assess specific cybersecurity needs: 
+
+Identify
+
+Protect
+
+Detect
+
+Respond
+
+Recover
