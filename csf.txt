@@ -6,7 +6,17 @@ The CSF outlines specific outcomes that organizations can achieve to address ris
 - Govern:
     The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.
     
-    - Understand and assess specific cybersecurity needs: 
+    - Understand and assess specific cybersecurity needs: Determine your organization's unique risks and needs.
+    
+    - Develop a tailored cybersecurity risk strategy: This should be based on your organization's specific cybersecurity objectives, the risk environment, and lessons learned from the past.
+    
+    - Establish defined risk management policies: Policies should be approved by management and should be organization-wide, repeatable, and recurring, and should align with the current cybersecurity threat environment, risks, and mission objectives.
+    
+    - Develop and communicate organizational cybersecurity practices: These must be straightforward and communicated regularly.
+    
+    - Establish and monitor cybersecurity supply chain risk management: Establish strategy, policy, and roles and responsibilities; including for overseeing suppliers, customers, and partners.
+    
+    - Implement continuous oversight and checkpoints: Analyze risks at regular intervals and monitor them continuously.
 
 Identify
 
