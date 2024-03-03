@@ -1,4 +1,4 @@
-# sec-plus-notes
+# cybersecurity-notes
 
 ### Here
 [Something](https://github.com/borelli28/sec-plus-notes)
