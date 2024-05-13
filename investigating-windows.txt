@@ -1,1 +1,10 @@
 Investigating Windows - Book Notes
+
+
+
+Analysis process
+	- Goals: Detailed understanding of what it is you are attempting to show or demonstrate. Having goals documented during your analysis will keep you focused on the task at hand. Goals should be clear, succinct, and achievable.
+	- Analysis Plan: Simple plan on steps to take during the investigation. 
+	- Analysis/Case notes 
+	- Reporting: Report for executives and stakeholders.
+
