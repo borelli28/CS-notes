@@ -2,5 +2,11 @@ Dynamic Malware Analysis Course Notes: https://www.youtube.com/watch?v=qA0YcYMRW
 
 
 
+Host indicators:
+	- File deletion/creation/modification
+	- Persistence installation
 
+Network indicators:
+	- C2 network connections
+	- File download from internet
 
