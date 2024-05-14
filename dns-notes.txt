@@ -2,4 +2,6 @@ Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMm
 
 
 
-i
+DNS Root server: Operated by independent organizations around the world. Point to TLD(Top Level Domains) servers.
+
+TLD server: Stores information about the domain. E.g. Netflix.com, Google.com, etc.
