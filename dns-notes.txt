@@ -20,3 +20,4 @@ DNS queries process
 	- domain.com DNS server returns answer(IP of server) to DNS resolver.
 	- DNS resolver caches IP of domain.com.
 	- DNS resolver sents result of query, IP of domain, to host machine(client).
+
