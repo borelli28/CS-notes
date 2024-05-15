@@ -2,4 +2,6 @@ Windows Internals Notes - https://www.youtube.com/playlist?list=PLJgB-VjEB3Q4h2L
 
 
 
+Program: A sequence of instructions that must be executeed for the application to function as intended. When a program is launched it becomes a process.
 
+Process: A program in execution. 
