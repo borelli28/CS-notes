@@ -5,3 +5,18 @@ Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMm
 DNS Root server: Operated by independent organizations around the world. Point to TLD(Top Level Domains) servers.
 
 TLD server: Stores information about the domain. E.g. Netflix.com, Google.com, etc.
+
+DNS queries process
+	- domain.com is typed in browser.
+	- Host machine checks if local DNS cache contains the domain.
+	- Host machine creates a DNS request packet for domain.com.
+	- DNS request packet is sent to DNS resolver(router and or ISP).
+	- DNS resolver checks local cache.
+	- DNS resolver sends DNS request packet to DNS root server.
+	- DNS root server sends TLD(.com, .net, etc.) server information to the DNS resolver.
+	- DNS resolver send DNS request packet to TDL server, in this case .com TDL server.
+	- TDL server sends information about domain.com DNS NS server to the DNS resolver.
+	- DNS resolver now sends DNS request packet to domain.com DNS server(authoritative).
+	- domain.com DNS server returns answer(IP of server) to DNS resolver.
+	- DNS resolver caches IP of domain.com.
+	- DNS resolver sents result of query, IP of domain, to host machine(client).
