@@ -23,4 +23,6 @@ DNS queries process
 
 Domain registrar: Organizations that act as an intermediary between domain registries and individual/business seeking to register a domain.
 
-Domain registry(TLD): Manage and maintain a central database for all domain names for a certain TLD like .com, .net, .ai, etc. 
+Domain registry(TLD): Manage and maintain a central database for all domain names for a certain TLD like .com, .net, .ai, etc.
+
+ 
