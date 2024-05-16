@@ -21,3 +21,6 @@ DNS queries process
 	- DNS resolver caches IP of domain.com.
 	- DNS resolver sents result of query, IP of domain, to host machine(client).
 
+Domain registrar: Organizations that act as an intermediary between domain registries and individual/business seeking to register a domain.
+
+Domain registry(TLD): Manage and maintain a central database for all domain names for a certain TLD like .com, .net, .ai, etc. 
