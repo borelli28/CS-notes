@@ -11,3 +11,5 @@
 [Investigating Windows Book Notes](https://github.com/borelli28/cybersecurity-notes/blob/main/investigating-windows.txt)
 
 [Practical Malware Analysis Book Notes](https://github.com/borelli28/cybersecurity-notes/blob/main/practical-mal-anal.txt)
+
+[Security+ Course Notes](https://github.com/borelli28/cybersecurity-notes/blob/main/sec-plus-notes.txt)
