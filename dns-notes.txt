@@ -1,4 +1,4 @@
-DNS - Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K
+Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K
 
 
 DNS Root server: Operated by independent organizations around the world. Point to TLD(Top Level Domains) servers.
