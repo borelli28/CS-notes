@@ -1,5 +1,4 @@
-Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K
-
+DNS - Domain Name System Notes - https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K
 
 
 DNS Root server: Operated by independent organizations around the world. Point to TLD(Top Level Domains) servers.
@@ -25,4 +24,4 @@ Domain registrar: Organizations that act as an intermediary between domain regis
 
 Domain registry(TLD): Manage and maintain a central database for all domain names for a certain TLD like .com, .net, .ai, etc.
 
- 
+DNSSEC: Receives DNS results and DNSSEC results.
