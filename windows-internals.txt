@@ -9,4 +9,6 @@ Process: A program in execution.
 
 Thread: A unit of execution within a process. A process can have multiple threads that execute concurrently for better performance.
 
-Service: A program that performs a specific task. Services run in the background and they don't have GUIs. 
+Service: A program that performs a specific task. Services run in the background and they don't have GUIs.
+
+ 
