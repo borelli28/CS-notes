@@ -25,3 +25,21 @@ Domain registrar: Organizations that act as an intermediary between domain regis
 Domain registry(TLD): Manage and maintain a central database for all domain names for a certain TLD like .com, .net, .ai, etc.
 
 DNSSEC: Receives DNS results and DNSSEC results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
