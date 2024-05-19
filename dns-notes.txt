@@ -28,18 +28,3 @@ DNSSEC: Receives DNS results and DNSSEC results.
 
 Resource Record SET(RRSET): A set of DNS records of the same name and type(CNAME, A, AAAA, MX, etc.). 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
