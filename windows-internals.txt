@@ -21,4 +21,7 @@ Virtual memory: A mapping of all the memory pages of an application in physical 
 		- VirtualProtectEx
 		- VirtualLock
 		- VirtualUnlock
-		- VirtualQuery 
+		- VirtualQuery
+
+Jobs: A set of processes as a group. For each process, the job object defines parameters like process priority, CPU time, network use, disk use, etc.
+
