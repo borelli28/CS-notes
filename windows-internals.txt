@@ -13,4 +13,12 @@ Service: A program that performs a specific task. Services run in the background
 
 Access control lists: Defines read/write/execute permissions.
 
-Drivers: Program that helps OS interact with a hardware device. 
+Drivers: Program that helps OS interact with a hardware device.
+
+Virtual memory: A mapping of all the memory pages of an application in physical memory, each application has their own virtual memory.
+	Windows API that manage virtual memory:
+		- VirtualAllocEx
+		- VirtualProtectEx
+		- VirtualLock
+		- VirtualUnlock
+		- VirtualQuery 
