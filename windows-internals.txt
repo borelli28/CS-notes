@@ -31,4 +31,5 @@ Registry: A database that contains configuration information for the OS, users, 
 	- HKEY_CLASSES_ROOT: Holds information about all possible file extensions and the applications that can be used to open them.
 	- HKEY_CURRENT_USER: Holds information about the current logged user in the system.
 	- HKEY_LOCAL_MACHINE: Holds important system configuration information. Data requried at boot time is present withing this key directory. 
-
+	- HKEY_USER: Contains account specific preferences and configuration, for each user account on the system.
+	- HKEY_CURRENT_CONFIG: Is a shortcut to the data within the HKEY_LOCAL_MACHINE key.
