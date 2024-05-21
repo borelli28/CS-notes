@@ -25,4 +25,4 @@ Virtual memory: A mapping of all the memory pages of an application in physical 
 
 Jobs: A set of processes as a group. For each process, the job object defines parameters like process priority, CPU time, network use, disk use, etc.
 
-Objects and handles: A system resource that is used by an application in execution. 
+Objects and handles: A system resource that is used by an application in execution. A handle is a reference to a windows object. 
