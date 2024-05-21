@@ -29,5 +29,6 @@ Objects and handles: A system resource that is used by an application in executi
 
 Registry: A database that contains configuration information for the OS, users, and application installed in the system.
 	- HKEY_CLASSES_ROOT: Holds information about all possible file extensions and the applications that can be used to open them.
-	- HEKY_
- 
+	- HKEY_CURRENT_USER: Holds information about the current logged user in the system.
+	- HKEY_LOCAL_MACHINE: Holds important system configuration information. Data requried at boot time is present withing this key directory. 
+
