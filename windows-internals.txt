@@ -41,4 +41,8 @@ Access Token: Security information for process/thread.
 		- SeShutDownPrivilege: A process can initiate a system reboot.
 
 Remote procedure call: Communication mechanism used often on windows systems on the background. It can be used by processes and services to communicate locally, and can also be used by remote computers to communicate with each other.
+	RPC DLLs:
+		- rpcrt4,dll: Contains important function to establish RPC connection, and processing exchanged data.
+		- rpcns4.dll: Assist with the resolution of system names to network addresses.
+		- rpcproxy.dll: Used to tunnel RPC traffic over HTTP.
 
