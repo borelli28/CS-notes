@@ -40,4 +40,5 @@ Access Token: Security information for process/thread.
 		- SeMachineAccountPrivilege: A process can create new user accounts on a system.
 		- SeShutDownPrivilege: A process can initiate a system reboot.
 
+Remote procedure call: Communication mechanism used often on windows systems on the background. It can be used by processes and services to communicate locally, and can also be used by remote computers to communicate with each other.
  
