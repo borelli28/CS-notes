@@ -33,3 +33,5 @@ Registry: A database that contains configuration information for the OS, users, 
 	- HKEY_LOCAL_MACHINE: Holds important system configuration information. Data requried at boot time is present withing this key directory. 
 	- HKEY_USER: Contains account specific preferences and configuration, for each user account on the system.
 	- HKEY_CURRENT_CONFIG: Is a shortcut to the data within the HKEY_LOCAL_MACHINE key.
+
+Access Token: Security information for process/thread. 
