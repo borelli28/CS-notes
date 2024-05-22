@@ -34,4 +34,10 @@ Registry: A database that contains configuration information for the OS, users, 
 	- HKEY_USER: Contains account specific preferences and configuration, for each user account on the system.
 	- HKEY_CURRENT_CONFIG: Is a shortcut to the data within the HKEY_LOCAL_MACHINE key.
 
-Access Token: Security information for process/thread. 
+Access Token: Security information for process/thread.
+	Privileges:
+		- SeLoadDriverPrivilege: A process can load and unload kernel-level drivers.
+		- SeMachineAccountPrivilege: A process can create new user accounts on a system.
+		- SeShutDownPrivilege: A process can initiate a system reboot.
+
+ 
