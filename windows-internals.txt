@@ -47,4 +47,6 @@ Remote procedure call: Communication mechanism used often on windows systems on 
 		- rpcproxy.dll: Used to tunnel RPC traffic over HTTP.
 
 Windows APIs: A set of functions designed to performed specific activites. They are organized in DLLs, which are imported by software programs.
+	- APIs can be seen as wrappers for sytem calls, since they could use system calls in the background.
 
+System calls: Low level functions used by user-level code to interact with the kernel. They typically required special privileges for execution.
