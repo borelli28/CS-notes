@@ -50,3 +50,4 @@ Windows APIs: A set of functions designed to performed specific activites. They 
 	- APIs can be seen as wrappers for system calls since they could use system calls in the background.
 
 System calls: Low level functions used by user-level code to interact with the kernel. They typically required special privileges for execution.
+
