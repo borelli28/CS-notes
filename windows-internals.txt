@@ -46,3 +46,5 @@ Remote procedure call: Communication mechanism used often on windows systems on 
 		- rpcns4.dll: Assist with the resolution of system names to network addresses.
 		- rpcproxy.dll: Used to tunnel RPC traffic over HTTP.
 
+Windows APIs: A set of functions designed to performed specific activites. They are organized in DLLs, which are imported by software programs.
+
