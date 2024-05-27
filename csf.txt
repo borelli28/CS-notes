@@ -18,7 +18,14 @@ The CSF outlines specific outcomes that organizations can achieve to address ris
     
     - Implement continuous oversight and checkpoints: Analyze risks at regular intervals and monitor them continuously.
 
-Identify
+Identify:
+	The organization's current cybersecurity risks are understood.
+	
+	- Asset management: Assets(data, hardware, software, systems, facilities, services, people, etc.) are identified and managed.
+
+	- Risk assessment: The cybersecurity risks to the organization, assets, and individuals are understood by the organization.
+	
+	- Improvement: Improvements to organizational cybersecurity risk management processes, procedures, and activities are identified across all CSF functions. 
 
 Protect
 
