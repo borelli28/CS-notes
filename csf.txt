@@ -27,7 +27,21 @@ Identify:
 	
 	- Improvement: Improvements to organizational cybersecurity risk management processes, procedures, and activities are identified across all CSF functions. 
 
-Protect
+Protect:
+	Safeguards are implemented to manage the organization cybersecurity risks.
+	
+	- Identity management, authentication, and access control: Access to physical and logical assets is limited to authorized users, services, and hardware.
+
+	- Awareness and training: The organization personnel are provided with cybersecurity awareness and training so that they can perform thir cybersecurity related tasks.
+
+	- Data security: Data is managed consistent with organization risk strategy to protect the CIA of the information.
+	
+	- Platform security: The hardware, software, and services are managed consistent with the organization risk strategy to protect their CIA.
+
+	- Technology infrastructure resilience: Security architechtures are managed consistent with the organization risk strategy to protect their CIA.
+	
+ 
+
 
 Detect
 
