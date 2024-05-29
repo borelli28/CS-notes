@@ -43,7 +43,13 @@ Protect:
  
 
 
-Detect
+Detect:
+	Possible cybersecurity attacks and compromises are found and analyzed.
+	
+	- Continous monitoring: Assets are monitored to find potentially adverse events.
+
+	- Adverse events analysis; Anomalies, IOCs, and other adverse events are analyzed to characterize the events and detect cybersecurity incidents. 
+
 
 Respond
 
