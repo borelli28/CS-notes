@@ -40,9 +40,6 @@ Protect:
 
 	- Technology infrastructure resilience: Security architechtures are managed consistent with the organization risk strategy to protect their CIA.
 	
- 
-
-
 Detect:
 	Possible cybersecurity attacks and compromises are found and analyzed.
 	
