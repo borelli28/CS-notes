@@ -47,7 +47,6 @@ Detect:
 
 	- Adverse events analysis; Anomalies, IOCs, and other adverse events are analyzed to characterize the events and detect cybersecurity incidents. 
 
-
 Respond:
 	Actions regarding a detected cybersecurity incident are taken.
 
