@@ -113,7 +113,13 @@ IAM(Identity and Access Management)
 	- Access control: An entity only gets access to what they need.
 	- Authentication and authorization: Entities must prove they are who they claim to be.
 	- Identity governance: Track an entity resource access.
-		
+	- Provisioning/de-provisioning user accounts
+		- User account creation process.
+		- Provisioning and de-prov when certain events occurs:
+			- Hiring
+			- Transfers
+			- Promotions
+		- Account details: Names, attributes, group perms, etc.
 		
 		
 		
