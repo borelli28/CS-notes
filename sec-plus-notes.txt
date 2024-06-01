@@ -121,5 +121,5 @@ IAM(Identity and Access Management)
 			- Promotions
 		- Account details: Names, attributes, group perms, etc.
 		
-		
+Zero trust: A holistic approach to network security that covers every device, process, and person. Everything must be verified, nothing is trusted.	
 		
