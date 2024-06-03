@@ -122,4 +122,14 @@ IAM(Identity and Access Management)
 		- Account details: Names, attributes, group perms, etc.
 		
 Zero trust: A holistic approach to network security that covers every device, process, and person. Everything must be verified, nothing is trusted.	
+
+Blockchain: Distributed ledger. Everyone on the blockchain maintains the ledger.
+	The blockchain process:
+		- Transaction is requested.
+		- Transaction is sent to every node in decentralized network to be verified.
+		- Transaction is verified and added to a new block containing other recently verified transactions.
+		- A hash is calculated from previous transaction data from the blockchaion and is added to the new block of verified transactions.
+		- The new block is added to the end of the blockchain, which is then updated to all nodes in the network. Transaction complete.
+	
+	  
 		
