@@ -1,4 +1,34 @@
 CS162: Operating Systems and Systems Programming - UC Berkley, John Kubiatowicz
 
 
+Operating systems
+	- Provide consistent abstractions to applications
+	- Manage sharing of resources among multiple applications
+
+	Building blocks:
+		- Processes
+		- Threads, Concurrency, Scheduling, Coordination
+		- Address spaces
+		- Protection, isolation, sharing, security
+		- Communication, protocols
+		- Persistent storage, transactions, consistency, resilience
+		- Interfaces to all devices
+
+	OS Basics:
+		- Hardware:
+			1) Processor
+			2) Memory
+			3) Storage
+			4) Networks
+		- OS:
+			1) Threads
+			2) Address spaces
+			3) Files
+			4) Sockets
+		- Process: Execution environment wit restricted rights provided by the OS
+		- Compiled program
+			- System libraries
+
+
+
 
