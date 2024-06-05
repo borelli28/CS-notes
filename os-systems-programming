@@ -50,8 +50,7 @@ Four fundamental OS concepts
 		- Only the "system" has the ability to access certain resources
 		- Combined with translation, isolates programs from each other and the OS from programs
 
-Thread Control Block(TCB): Holds contents of registers when thread is not running
-
+Thread Control Block(TCB): Holds contents of registers when thread is not running. Use on multithreaded processes, during context switch
 
 
 
