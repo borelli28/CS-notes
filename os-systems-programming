@@ -29,6 +29,35 @@ Operating systems
 		- Compiled program
 			- System libraries
 
+// Lecture 2
+The OS abstracts underlying hardware to help tame complexity
+	- Processor -> thread
+	- Memory -> address space
+	- Disks, SSDs -> files
+	- Networks -> sockets
+	- Machines -> processes
+
+Four fundamental OS concepts
+	- Thread: Execution context
+		- Fully describes program state
+		- Program counter, registers, execution flags, stack
+	- Address space
+		- Set of memory addresses accessible to program(for read/write)
+		- May be distinct from memory space of the physical machine
+	- Process: An instance of a running program
+		- Protected address space
+	- Dual mode operation/protection
+		- Only the "system" has the ability to access certain resources
+		- Combined with translation, isolates programs from each other and the OS from programs
+
+
+
+
+
+
+
+
+
 
 
 
