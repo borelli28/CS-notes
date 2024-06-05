@@ -47,6 +47,7 @@ Four fundamental OS concepts
 	- Process: An instance of a running program
 		- Protected address space
 	- Dual mode operation/protection
+		- Kernel mode, and user mode
 		- Only the "system" has the ability to access certain resources
 		- Combined with translation, isolates programs from each other and the OS from programs
 
