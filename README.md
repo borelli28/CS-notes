@@ -16,6 +16,6 @@
 
 [Windows Internals Course Notes](https://github.com/borelli28/cybersecurity-notes/blob/main/windows-internals.txt)
 
-[Operating Systems](https://github.com/borelli28/cybersecurity-no    tes/blob/main/os-systems-programming.txt)
+[Operating Systems](https://github.com/borelli28/cybersecurity-notes/blob/main/os-systems-programming.txt)
 
 
