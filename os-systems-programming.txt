@@ -84,6 +84,11 @@ Shared vs per-thread state
 			- Thread metadata
 		- Stack: Stack holds temporary results, permits recursive execution(push each function on execution to stack)
 
+pthreads lock:
+	- pthread_mutex_init: Initialize lock
+	- pthread_mutex_lock: Grab a lock
+	- pthread_mutex_unlock: Release the lock
+
 
 
 
