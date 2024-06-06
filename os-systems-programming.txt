@@ -1,6 +1,7 @@
 CS162: Operating Systems and Systems Programming - UC Berkley, John Kubiatowicz
 
 
+// Lecture 1 - Intro
 Operating systems
 	- Provide consistent abstractions to applications
 	- Manage sharing of resources among multiple applications
@@ -52,6 +53,12 @@ Four fundamental OS concepts
 		- Combined with translation, isolates programs from each other and the OS from programs
 
 Thread Control Block(TCB): Holds contents of registers when thread is not running. Use on multithreaded processes, during context switch
+
+// Lecture 3 - Abstractions: Threads and Processes
+
+
+
+
 
 
 
