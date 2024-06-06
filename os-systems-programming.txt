@@ -82,7 +82,8 @@ Shared vs per-thread state
 			- Stack information
 			- Saved registers
 			- Thread metadata
-		- Stack
+		- Stack: Stack holds temporary results, permits recursive execution(push each function on execution to stack)
+
 
 
 
