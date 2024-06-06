@@ -56,7 +56,22 @@ Thread Control Block(TCB): Holds contents of registers when thread is not runnin
 
 // Lecture 3 - Abstractions: Threads and Processes
 Thread: A single unique execution context
-	- Thread purpose: OS needs to handle multiple things at once(MTAO).
+	- Thread purpose: OS needs to handle multiple things at once(MTAO)
+	- Threads are a unit of concurrency provided by the OS
+	- Each thread can represent one thing or one task
+
+Running threads concurrently: Scheduler(kernel) is free to run threads in any order, by breaking threads into chunks and running them in the most efficient way possible.
+
+Thread states
+	- RUNNING
+	- READY: Elegible to run, but not currenly running
+	- BLOCKED: Ineligible to run
+
+pthreads: OS library API for threads(semi standarized for all OS'ses)
+	- pthread_create: Creates a thread, and the returns is an implicit call to pthread_exit
+	- pthread_exit: Terminates the thread
+	- pthread_join: Suspends execution of the calling thread until the target thread terminates
+
 
 
 
