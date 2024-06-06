@@ -72,6 +72,17 @@ pthreads: OS library API for threads(semi standarized for all OS'ses)
 	- pthread_exit: Terminates the thread
 	- pthread_join: Suspends execution of the calling thread until the target thread terminates
 
+Shared vs per-thread state
+	- Shared state: State shared by every thread
+		- Heap
+		- Global variables
+		- Code
+	- Per-thread state: State unique for each thread
+		- TCB: Thread control block
+			- Stack information
+			- Saved registers
+			- Thread metadata
+		- Stack
 
 
 
