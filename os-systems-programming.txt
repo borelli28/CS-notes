@@ -55,6 +55,9 @@ Four fundamental OS concepts
 Thread Control Block(TCB): Holds contents of registers when thread is not running. Use on multithreaded processes, during context switch
 
 // Lecture 3 - Abstractions: Threads and Processes
+Thread: A single unique execution context
+	- Thread purpose: OS needs to handle multiple things at once(MTAO).
+
 
 
 
