@@ -99,6 +99,11 @@ Process management APIs
 	- kill: send a signal to another process
 	- sigaction: set handlers for signals
 
+// Lecture 4 - Files and I/O
+Semaphore: A kind of generalized lock. A semaphore has a non-negative integer value and supports the following two operations:
+	- P() or down(): Atomic operation that waits for semaphore to become positive, then decrements it by 1
+	- V() or up(): Atomic operation that increments the semaphore by 1, waking up a waiting P, if any
+
 
 
 
