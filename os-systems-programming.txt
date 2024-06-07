@@ -148,6 +148,21 @@ Low level file API
 		- returns number of bytes written
 	- Reposition file offset within kernel: off_t lseek()
 
+Low level I/O - Other operations
+	- Operations specific to terminals, devices, networking, etc...
+		- e.g., ioctl
+	- Duplicating descriptors
+		- int dup2(int old, int new);
+		- int dup(int old);
+	- Pipes - channel
+		- int pipe(int pipefd[2]);
+		- Write to pipefd[1] can be read from pipefd[0]
+	- File locking
+	- Memory-mapping files
+	- Async I/O
+
+
+
 	
 
 
