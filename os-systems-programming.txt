@@ -113,6 +113,42 @@ POSIX: Portable Operating System Interface(for uniX)
 	- Interface for application programmers
 	- Created to bring order to many Unix-derived OSes, so applications are portable
 
+The file system abstraction
+	- File
+		- Named collection of data in a file system
+		- POSIX file data: sequence of bytes
+		- File metadata: size, modification time, owner, security info, access control
+	- Directory
+		- Folder containing files & directories
+		- Hierarchical naming
+			- /home/ff/cs162/index.html
+		- Links and volumes
+
+C High level file API - Streams: Unformatted sequences of bytes with a position(pointer)
+	- stdin: Normal source of input
+	- stdout: Normal source of output
+	- stderr: Diagnostics and errors
+
+Low level file I/O - The RAW system-call interface
+	int open (const char * filename, int flags p, mode_t mode])
+	int creat (const char * filename, mode_t mode)
+	int close (int filedes)
+
+	- Integer return from open() is a file descriptor
+	- Operations on file descriptors:
+		- Open system call created an open file description entry in the system-wide table of open files
+		- Open file description object in the kernel represents an instance of an open file
+		- User is given an integer instead of a pointer to the file description in the kernel for kernel security reasons.
+
+Low level file API
+	- Read data from open file using file descriptor: ssize_t read()
+		- Reads up to maxsize bytes
+		- returns bytes read, 0 => EOF, -1 => error
+	- Write data to open file using file descriptor: ssize_t write()
+		- returns number of bytes written
+	- Reposition file offset within kernel: off_t lseek()
+
+	
 
 
 
