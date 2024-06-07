@@ -103,6 +103,16 @@ Process management APIs
 Semaphore: A kind of generalized lock. A semaphore has a non-negative integer value and supports the following two operations:
 	- P() or down(): Atomic operation that waits for semaphore to become positive, then decrements it by 1
 	- V() or up(): Atomic operation that increments the semaphore by 1, waking up a waiting P, if any
+	- Called a binary semaphore or mutex:
+		inital value of semaphore = 1;
+		semaphore.down();
+			// Critical section of code here
+		semaphore.up();
+
+POSIX: Portable Operating System Interface(for uniX)
+	- Interface for application programmers
+	- Created to bring order to many Unix-derived OSes, so applications are portable
+
 
 
 
