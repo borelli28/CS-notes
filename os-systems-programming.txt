@@ -179,6 +179,17 @@ Web server network process
 	- Kernel: Kernel copy reply from user buffer to network buffer
 	- Hardware: Sents reply to destination(internet)
 
+IPC(Interprocess Communication): Allows two processes to communicate and share information
+	UNIX Pipe: Queue inside kernel memory
+
+	Process A --> UNIX Pipe --> Process B
+		- Memory buffer is finite:
+			- If producer(A) tries to write when buffer is full, it blocks(Puts to sleep until there is space available)
+			- If consumer(B) tries to read when buffer is empty, it blocks(Put to sleep unitl there is data)
+
+Sockets: Endpoints for communications
+	- Queues to temporarily hold results
+
 
 
 	
