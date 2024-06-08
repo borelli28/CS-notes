@@ -189,7 +189,8 @@ IPC(Interprocess Communication): Allows two processes to communicate and share i
 
 Sockets: Endpoints for communications
 	- Queues to temporarily hold results
-
+	- Another mechanism for IPC
+	Process <--> Socket <--> Internet <--> Socket <--> Process
 
 
 	
