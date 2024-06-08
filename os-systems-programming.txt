@@ -161,6 +161,24 @@ Low level I/O - Other operations
 	- Memory-mapping files
 	- Async I/O
 
+// Lecture 5 - IPC, Pipes, and Sockets
+Web server network process
+	- Server: Opens up a network socket to listen to requests coming in
+	- Server: read() call Kernel
+	- Kernel: Kernel puts thread thats handling read() call to sleep, because there is no data yet, coming from the network
+	- Hardware: Request arrive to hardware network interface
+	- Kernel: Network request is copy into the socket buffer in the kernel
+	- Kernel: read() call gets waken up and data is sent to server
+	- Server: Parse the request
+	- Server: read() call to kernel
+	- Kernel: Hard drive request for data
+	- Kernel: Hard drive data copy into buffer in kernel
+	- Kernel: Data is sent to server
+	- Server: Server receives data and formats a reply
+	- Server: write() call to kernel
+	- Kernel: Kernel copy reply from user buffer to network buffer
+	- Hardware: Sents reply to destination(internet)
+
 
 
 	
