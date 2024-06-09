@@ -1,4 +1,4 @@
-# cybersecurity-notes
+# CS-notes
 
 
 ### Contents
