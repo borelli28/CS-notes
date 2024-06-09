@@ -192,6 +192,7 @@ Sockets: Endpoints for communications
 	- Another mechanism for IPC
 	Process <--> Socket <--> Internet <--> Socket <--> Process
 
+// Lecture 6 - Synchronization 1: Concurrency and Mutual Exclusion
 
 	
 
