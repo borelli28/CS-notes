@@ -208,6 +208,12 @@ Context switch
 	- State from PCB 1 is reloaded
 	- Process 1 now is running
 
+Run a thread
+	- Load its state(registers, PC, stack pointer) into CPU
+	- Load environment(virtual memory space, etc.)
+	- Jump to the PC
+
+
 	
 
 
