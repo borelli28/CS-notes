@@ -193,6 +193,20 @@ Sockets: Endpoints for communications
 	Process <--> Socket <--> Internet <--> Socket <--> Process
 
 // Lecture 6 - Synchronization 1: Concurrency and Mutual Exclusion
+Process Control Block(PCB)
+	- Process state
+	- Process number
+	- Program counter
+	- Registers
+	- Memory limits
+	- List of open files
+
+Context switch
+	- Process 0 is running
+	- Interrupt or system call is executed
+	- Process state is saved into PCB 0
+	- State from PCB 1 is reloaded
+	- Process 1 now is running
 
 	
 
