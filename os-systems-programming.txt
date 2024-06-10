@@ -213,8 +213,7 @@ Run a thread
 	- Load environment(virtual memory space, etc.)
 	- Jump to the PC
 
-
-	
+Atomic operations: An operation that always run to completion or not at all	
 
 
 
