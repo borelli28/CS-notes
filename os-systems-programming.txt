@@ -270,6 +270,17 @@ Solution #4 to "Too much milk" problem:
 	}
 	release(&milk_lock);
 
+// Lecture 13 - Memory 1: Address Translation and Virtual Memory
+From program to process
+	- Preparation of a program for execution involves components at:
+		- Compile time(gcc)
+		- Link/load time(ld)
+		- Execution time
+
+
+
+
+
 
 
 
