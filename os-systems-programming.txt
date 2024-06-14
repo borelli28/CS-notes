@@ -277,7 +277,11 @@ From program to process
 		- Link/load time(ld)
 		- Execution time
 
-
+Paging: Physical memory in fixed size chunks
+	- Solution to fragmentation from segments
+	- Page table(One per process)
+		- Resides in physical memory
+		- Contains physical page and permission for each virtual page
 
 
 
