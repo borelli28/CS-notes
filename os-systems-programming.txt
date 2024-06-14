@@ -64,10 +64,10 @@ Running threads concurrently: Scheduler(kernel) is free to run threads in any or
 
 Thread states
 	- RUNNING
-	- READY: Elegible to run, but not currenly running
+	- READY: Eligible to run, but not currently running
 	- BLOCKED: Ineligible to run
 
-pthreads: OS library API for threads(semi standarized for all OS'ses)
+pthreads: OS library API for threads(semi standardise for all OS's
 	- pthread_create: Creates a thread, and the returns is an implicit call to pthread_exit
 	- pthread_exit: Terminates the thread
 	- pthread_join: Suspends execution of the calling thread until the target thread terminates
@@ -111,7 +111,7 @@ Semaphore: A kind of generalized lock. A semaphore has a non-negative integer va
 
 POSIX: Portable Operating System Interface(for uniX)
 	- Interface for application programmers
-	- Created to bring order to many Unix-derived OSes, so applications are portable
+	- Created to bring order to many Unix-derived OS's, so applications are portable
 
 The file system abstraction
 	- File
@@ -177,7 +177,7 @@ Web server network process
 	- Server: Server receives data and formats a reply
 	- Server: write() call to kernel
 	- Kernel: Kernel copy reply from user buffer to network buffer
-	- Hardware: Sents reply to destination(internet)
+	- Hardware: Sends reply to destination(internet)
 
 IPC(Interprocess Communication): Allows two processes to communicate and share information
 	UNIX Pipe: Queue inside kernel memory
@@ -226,7 +226,7 @@ Producer-Consumer with a bounded buffer
 	- Consumers take them out
 	- Need synchronization to coordinate producer/consumer
 
-	- Dont want producer and consumer to have to work in lockstep, so put a fixed-size buffer between them
+	- Don't want producer and consumer to have to work in lockstep, so put a fixed-size buffer between them
 		- Need to synchronize access to the buffer
 		- Producer needs to wait if buffer is full
 		- Consumer needs to wait if buffer is empty
