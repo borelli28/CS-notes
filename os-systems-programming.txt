@@ -302,3 +302,5 @@ Virtual Address --> Page Table --> Physical Address
 |                      |                       | --> Read/Write [DRAM]
 |  Registers, L1, L2   |                       |     
 +----------------------------------------------+
+
+Bus: Common set of wires for communication among hardware devices
