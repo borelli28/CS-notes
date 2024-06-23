@@ -19,3 +19,5 @@
 [Operating Systems](https://github.com/borelli28/CS-notes/blob/main/os-systems-programming.txt)
 
 [Distributed Systems](https://github.com/borelli28/CS-notes/blob/main/distributed-systems.md)
+
+[Intro Pytorch and Neural Networks](https://github.com/borelli28/CS-notes/blob/main/intro-pytorch-nn.md)
