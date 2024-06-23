@@ -6,3 +6,9 @@ Infrastructure types:
     - Storage
     - Communication
     - Computation
+
+### Lecture 2: RPC and Threads
+Main reasons to use threads:
+    - Parallelism
+    - I/O concurrency
+    - Convenience
