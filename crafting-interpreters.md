@@ -15,3 +15,7 @@ Intermediate representation: Created by the compiler or interpreter as an abstra
 Optimization: Swap out user code with a code that has the same semantics, but is more efficient.
 
 Code generation: Translate the optimized intermediate representation into machine code or bytecode.
+
+Virtual machine: A program that emulates a CPU and executes the bytecode.
+
+Runtime: Things like garbage collection that are part of the language may get compiled with the program and ran at runtime.
