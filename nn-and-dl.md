@@ -12,3 +12,9 @@ In order to compute the output, we use weights, which are real numbers that tell
 #### Bias
 A perceptron can have a bias, which is a measure of how easy it is to get the perceptron to output a 1. For example, suppose we have a perceptron with two inputs, each with weight −2, and an overall bias of 3. Here's our perceptron:
 ![Perceptron with bias](/images/perceptron-wt-bias.png)
+
+### Sigmoid Neurons
+Similar to perceptrons, but they are designed in way that a small change in their weights or bias will only cause a small change in their output. This is important because it allows us to use gradient descent to learn the weights and biases.
+
+Sigmoid neurons look the same as perceptrons, but instead of outputting 0 or 1, they output a decimal value between 0 and 1, for example 0.730.
+![Perceptron](/images/perceptron.png)
