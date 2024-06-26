@@ -1,7 +1,6 @@
 Windows Internals Notes - https://www.youtube.com/playlist?list=PLJgB-VjEB3Q4h2L1CB3BX52DLVx-m9zV8i
 
 
-
 Program: A sequence of instructions that must be executeed for the application to function as intended. When a program is launched it becomes a process.
 
 Process: A program in execution.
@@ -50,4 +49,3 @@ Windows APIs: A set of functions designed to performed specific activites. They 
 	- APIs can be seen as wrappers for system calls since they could use system calls in the background.
 
 System calls: Low level functions used by user-level code to interact with the kernel. They typically required special privileges for execution.
-
