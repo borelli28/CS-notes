@@ -27,3 +27,9 @@ Feedforward networks: A network where the output from one layer is used as input
 Input layer --> Hidden layer --> Output layer
 
 Recurrent neural networks: RNNs allowed feedback loops. The idea in these models is to have neurons which fire for some limited duration of time, before becoming dormant. Loops don't cause problems in such a model, since a neuron's output only affects its input at some later time, not instantaneously.
+
+#### Gradient Descent
+A gradient descent is an iterative optimization algorithm used to minimize a function by moving in the direction of the steepest descent as defined by the negative of the gradient. Gradient descent is used to adjust the weights and biases to minimize the cost function.
+![Gradient descent](/images/gradient-descent.png)
+
+Cost Function(loss function): A function that measures how far off our predictions are from the actual target values.
