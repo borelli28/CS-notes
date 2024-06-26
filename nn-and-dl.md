@@ -18,3 +18,12 @@ Similar to perceptrons, but they are designed in way that a small change in thei
 
 Sigmoid neurons look the same as perceptrons, but instead of outputting 0 or 1, they output a decimal value between 0 and 1, for example 0.730.
 ![Perceptron](/images/perceptron.png)
+
+### The Architecture of Neural Networks
+The leftmost layer in the network is called the input layer, and the rightmost layer is called the output layer. The middle layers are called hidden layers, because they are not directly exposed to the input or output.
+![Neural Network Architecture](/images/nn-arch.png)
+
+Feedforward networks: A network where the output from one layer is used as input to the next layer. Information is always feed forward, never fed back. Feedforward networks don't allow feedback loops(Hidden layer 2 to hidden layer 1).
+Input layer --> Hidden layer --> Output layer
+
+Recurrent neural networks: RNNs allowed feedback loops. The idea in these models is to have neurons which fire for some limited duration of time, before becoming dormant. Loops don't cause problems in such a model, since a neuron's output only affects its input at some later time, not instantaneously.
