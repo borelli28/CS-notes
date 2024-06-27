@@ -39,12 +39,12 @@ Backpropagation is a fast algorithm for computing the gradient of the cost funct
 
 ![Backpropagation](https://editor.analyticsvidhya.com/uploads/18870backprop2.png)
     
-Process:
-    1. Input a training data into the input layer.
-    2. The hidden layers receive training data and compute weights.
-    3. The output layer computes the output.
-    4. Compare the output with the target value to compute the error or also called the loss.
-    5. Backpropagate the error to last hidden layer, calculate how much each neuron in the last hidden layer contributed to the error and then update its weights. And then move to the previous hidden layer, and so on.
+    Process:
+        1. Input a training data into the input layer.
+        2. The hidden layers receive training data and compute weights.
+        3. The output layer computes the output.
+        4. Compare the output with the target value to compute the error or also called the loss.
+        5. Backpropagate the error to last hidden layer, calculate how much each neuron in the last hidden layer contributed to the error and then update its weights. And then move to the previous hidden layer, and so on.
         
 Weight Adjustment: The weights are adjusted slightly in the direction that reduces the error. This adjustment is controlled by a parameter called the learning rate, which determines how big the steps are.
 
