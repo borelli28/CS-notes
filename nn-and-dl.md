@@ -35,7 +35,16 @@ A gradient descent is an iterative optimization algorithm used to minimize a fun
 Cost Function(loss function): A function that measures how far off our predictions are from the actual target values.
 
 ### Backpropagation
-Backpropagation is a fast algorithm for computing the gradient of the cost function. Backpropagation is short for, "backward propagation of errors".
+Backpropagation is a fast algorithm for computing the gradient of the cost function, also called the error, or the loss(How far the output was from the target). Backpropagation is short for, "backward propagation of errors".
+    
+    Process:
+        1. Input a training data into the input layer.
+        2. The hidden layers receive training data and compute weights.
+        3. The output layer computes the output.
+        4. Compare the output with the target value to compute the error or also called the loss.
+        5. Backpropagate the error to last hidden layer, calculate how much each neuron in the last hidden layer contributed to the error and then update its weights. And then move to the previous hidden layer, and so on.
+        
+    Weight Adjustment: The weights are adjusted slightly in the direction that reduces the error. This adjustment is controlled by a parameter called the learning rate, which determines how big the steps are.
 
 #### Activation Function
 The activation function is the function that is applied to the weighted sum of the inputs of a neuron. Its primary purpose is to introduce non-linearity into the network, allowing it to learn complex patterns and relationships in the data. The activation function is usually a sigmoid function or a rectified linear unit (ReLU).
