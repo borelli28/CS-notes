@@ -25,3 +25,5 @@
 [Neural Networks and Deep Learning](https://github.com/borelli28/CS-notes/blob/main/nn-and-dl.md)
 
 [Crafting Interpreters](https://github.com/borelli28/CS-notes/blob/main/crafting-interpreters.md)
+
+[Data Structures and Algorithms](https://github.com/borelli28/CS-notes/blob/main/dsa)
