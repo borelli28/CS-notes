@@ -37,7 +37,7 @@ Cost Function(loss function): A function that measures how far off our predictio
 ### Backpropagation
 Backpropagation is a fast algorithm for computing the gradient of the cost function, also called the error, or the loss(How far the output was from the target). Backpropagation is short for, "backward propagation of errors".
 
-    ![Backpropagation](https://editor.analyticsvidhya.com/uploads/18870backprop2.png)
+![Backpropagation](https://editor.analyticsvidhya.com/uploads/18870backprop2.png)
     
     Process:
         1. Input a training data into the input layer.
