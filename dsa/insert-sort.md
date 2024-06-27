@@ -1,4 +1,4 @@
-# Insertion Sort
+# Insertion Sort - https://www.programiz.com/dsa/insertion-sort
 Insertion sort works by diving elements in sorted and unsorted parts. It starts with the first element and considers it as a sorted element. Then it moves to the next element and compares it with the last elements in the sorted part. If the element is smaller than the element in the sorted part, it is inserted in the correct position. This process continues until all the elements are sorted.
 
 #### Algorithm
