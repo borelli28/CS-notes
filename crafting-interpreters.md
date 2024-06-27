@@ -33,3 +33,8 @@ Instead of writing a backend that generates machine code, you can write a backen
 
 #### Just-in-time Compilation
 On the end-user machine, the program source code is loaded, then the program is compiled to native(machine) code for the architecture their computer supports. The program can be loaded from source, in the case of Javascript, or from platform independent bytecode, like Java(JVM) and C#(CLR).
+
+### Compilers and Interpreters
+Compiling: Translating a source language into another source language, usually a lower-level one, without executing it.
+
+Interpreting: Reading source code and execute it immediately.
