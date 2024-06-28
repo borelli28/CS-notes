@@ -291,13 +291,17 @@ Paging: Physical memory in fixed size chunks
 ### Lecture 14 - Memory 2: Virtual Memory, Caching and TLBs
 Virtual Address: [Virtual Page Number | Offset]
 
+```c
 Page Table: [Page #0 | V,R]
 	    [Page #1 | V,R]
 	    [Page #2 | V,R,W]
 	
 Virtual Address --> Page Table --> Physical Address
+```
 
 ### Lecture 17 - Demand Paging, General I/O, and Storage Devices
 ![Overview of I/O](/images/io-overview.png)
 
 Bus: Common set of wires for communication among hardware devices
+
+### Lecture 18 - General I/O, Storage Devices, and Performance
