@@ -76,3 +76,5 @@ Monitor training and validation loss. If training loss continues to decrease whi
 
 #### Validation Loss
 Validation loss is a measure of the model's performance on a separate dataset (validation set) that was not used during training.
+
+#### Regularization
