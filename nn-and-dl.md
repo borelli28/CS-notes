@@ -67,3 +67,12 @@ Learning slowdown is a phenomenon where the model learns very slowly because the
 
 ### Learning Rate
 The learning rate is a hyperparameter that controls how much the weights are being adjusted in the neural network with respect to the loss gradient. The lower the value, the slower we travel along the downward slope(the slower we get to 0 loss in our model). A typical range for the learning rate is between 0.0001 and 1.0.
+
+### Overfitting
+Overfitting is a problem in deep learning where a model learns the training data too well, including its noise and peculiarities, to the point where it negatively impacts the model ability to generalize to new data.
+
+To detect overfitting:
+Monitor training and validation loss. If training loss continues to decrease while validation loss starts to increase, its a sign of overfitting.
+
+#### Validation Loss
+Validation loss is a measure of the model's performance on a separate dataset (validation set) that was not used during training.
