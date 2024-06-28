@@ -40,11 +40,11 @@ Backpropagation is a fast algorithm for computing the gradient of the cost funct
 ![Backpropagation](https://editor.analyticsvidhya.com/uploads/18870backprop2.png)
     
     Process:
-        1. Input a training data into the input layer.
-        2. The hidden layers receive training data and compute weights.
-        3. The output layer computes the output.
-        4. Compare the output with the target value to compute the error or also called the loss.
-        5. Backpropagate the error to last hidden layer, calculate how much each neuron in the last hidden layer contributed to the error and then update its weights. And then move to the previous hidden layer, and so on.
+        - Input a training data into the input layer.
+        - The hidden layers receive training data and compute weights.
+        - The output layer computes the output.
+        - Compare the output with the target value to compute the error or also called the loss.
+        - Backpropagate the error to last hidden layer, calculate how much each neuron in the last hidden layer contributed to the error and then update its weights. And then move to the previous hidden layer, and so on.
         
 Weight Adjustment: The weights are adjusted slightly in the direction that reduces the error. This adjustment is controlled by a parameter called the learning rate, which determines how big the steps are.
 
@@ -57,10 +57,10 @@ Measures the difference between predicted and actual target(cost/loss/error). It
 Models trained with cross-entropy as the cost function tend to learn faster specially when the model is wrong(early stages), because cross-entropy avoids something called, learning slowdown.
 
 Cross-entropy in the training process:
-- Forward Pass: Model makes predictions.
-- Loss Calculation: Cross-entropy loss is computed.
-- Backpropagation: Gradients are calculated based on this loss.
-- Optimization: Weights are updated to minimize the loss.
+    - Forward Pass: Model makes predictions.
+    - Loss Calculation: Cross-entropy loss is computed.
+    - Backpropagation: Gradients are calculated based on this loss.
+    - Optimization: Weights are updated to minimize the loss.
 
 #### Learning Slowdown
 Learning slowdown is a phenomenon where the model learns very slowly because the gradient of the cost function is very small when the model is wrong. Cross-entropy avoids learning slowdown by providing a significant gradient even when predictions are far off, unlike mean squared error which can produce very small gradients for highly incorrect outputs, thus ensuring consistent and effective weight updates throughout training.
