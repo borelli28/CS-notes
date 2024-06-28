@@ -78,3 +78,12 @@ Monitor training and validation loss. If training loss continues to decrease whi
 Validation loss is a measure of the model's performance on a separate dataset (validation set) that was not used during training.
 
 #### Regularization
+A set of techniques used to prevent overfitting in neural networks by adding a penalty term to the loss function.
+
+L2 Regularization(weight decay): Adds a penalty term to the loss function based on the squared values of the model's weights, encouraging smaller weights and helping prevent overfitting.
+
+```
+New Loss = Original Loss + λ(Lambda) * (sum of squared weights)
+```
+λ is a hyperparameter that controls the strength of the regularization effect on the model. When λ = 0, there is no regularization effect. As λ increases, the regularization effect becomes stronger.
+![Regularization with Lambda](https://miro.medium.com/v2/resize:fit:1098/1*ODhXW4H9ZRTKTzXOAyStAg.png)
