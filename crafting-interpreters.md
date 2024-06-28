@@ -38,3 +38,13 @@ On the end-user machine, the program source code is loaded, then the program is 
 Compiling: Translating a source language into another source language, usually a lower-level one, without executing it.
 
 Interpreting: Reading source code and execute it immediately.
+
+### A High Level Language
+
+#### Dynamic Typing
+Variables can store values of any type, and the type of a variable is determined at runtime.
+
+#### Automatic Memory Management
+Reference counting: Keep track of how many references there are to an object, and when the count reaches zero, the object is deleted.
+
+Garbage collection: The runtime periodically looks for objects that are no longer reachable and deletes them.
