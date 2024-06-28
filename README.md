@@ -16,7 +16,7 @@
 
 [Windows Internals Course Notes](https://github.com/borelli28/CS-notes/blob/main/windows-internals.txt)
 
-[Operating Systems](https://github.com/borelli28/CS-notes/blob/main/os-sys-programming.txt)
+[Operating Systems](https://github.com/borelli28/CS-notes/blob/main/os-sys-programming.md)
 
 [Distributed Systems](https://github.com/borelli28/CS-notes/blob/main/distributed-systems.md)
 
