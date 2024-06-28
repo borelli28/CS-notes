@@ -183,9 +183,9 @@ IPC(Interprocess Communication): Allows two processes to communicate and share i
 UNIX Pipe: Queue inside kernel memory
 
 Process A --> UNIX Pipe --> Process B
-	- Memory buffer is finite:
-		- If producer(A) tries to write when buffer is full, it blocks(Puts to sleep until there is space available)
-		- If consumer(B) tries to read when buffer is empty, it blocks(Put to sleep unitl there is data)
+- Memory buffer is finite:
+	- If producer(A) tries to write when buffer is full, it blocks(Puts to sleep until there is space available)
+	- If consumer(B) tries to read when buffer is empty, it blocks(Put to sleep unitl there is data)
 
 Sockets: Endpoints for communications
 - Queues to temporarily hold results
@@ -216,11 +216,13 @@ Run a thread
 Atomic operations: An operation that always run to completion or not at all	
 
 ### Lecture 7 - Synchronization 2: Semaphores, Lock Implementation, and Atomic Instructions
+```c
 Producer-Consumer with a bounded buffer
 	|Producer		     Consumer|
 	|Producer -->	Buffer -->   Consumer|
 	|Producer	  	     Consumer|
 	--------------------------------------	
+```
 
 - Producers put things into a shared buffer
 - Consumers take them out
@@ -237,6 +239,7 @@ Producer-Consumer with a bounded buffer
 	- Only one thread can manipulate buffer queue at a time
 
 Solution #3 to "Too much milk" problem:
+```c
 Thread A
 	leave note A;
 	while(note B) {
@@ -255,7 +258,7 @@ Thread B
 		}
 	}
 	remove note B;
-
+```
 	
 Cons: A thread is waiting(not sleeping), wasting resources while B thread is buying milk
 
@@ -263,12 +266,14 @@ Solution #4 to "Too much milk" problem:
 - Any thread acquires lock("&milk_lock), then goes to buy milk.
 - If any other thread sees the lock, they will go to sleep.
 * This way no other thread is wasting resources waiting until the other thread buys the milk
-	
+
+```c
 acquire(&milk_lock);
 if (noMilk) {
 	buy milk;
 }
 release(&milk_lock);
+```
 
 ### Lecture 13 - Memory 1: Address Translation and Virtual Memory
 From program to process
