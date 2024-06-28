@@ -257,7 +257,7 @@ Thread B
 	remove note B;
 
 	
-	Cons: A thread is waiting(not sleeping), wasting resources while B thread is buying milk
+Cons: A thread is waiting(not sleeping), wasting resources while B thread is buying milk
 
 Solution #4 to "Too much milk" problem:
 - Any thread acquires lock("&milk_lock), then goes to buy milk.
