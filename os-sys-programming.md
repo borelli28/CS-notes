@@ -293,14 +293,6 @@ Page Table: [Page #0 | V,R]
 Virtual Address --> Page Table --> Physical Address
 
 ### Lecture 17 - Demand Paging, General I/O, and Storage Devices
-+----------------------------------------------+
-|      Processor 1     |                       |
-|                      |                       | --> Read/Write [I/O Controllers] <--> [SSD]
-|  Registers, L1, L2   |                       |                    |
-|   -------------------|    L3 Shared Cache    |     Interrupts  <--+
-|      Processor 2     |                       |
-|                      |                       | --> Read/Write [DRAM]
-|  Registers, L1, L2   |                       |     
-+----------------------------------------------+
+![Overview of I/O](/images/io-overview.png)
 
 Bus: Common set of wires for communication among hardware devices
