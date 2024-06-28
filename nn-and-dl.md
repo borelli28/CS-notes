@@ -52,15 +52,15 @@ Weight Adjustment: The weights are adjusted slightly in the direction that reduc
 The activation function is the function that is applied to the weighted sum of the inputs of a neuron. Its primary purpose is to introduce non-linearity into the network, allowing it to learn complex patterns and relationships in the data. The activation function is usually a sigmoid function or a rectified linear unit (ReLU).
 
 ### Cross-Entropy Cost Function
-Measures the difference between predicted and actual target(cost/loss/error). It is used in classification problems where the output is a probability value between 0 and 1. 
-
-Models trained with cross-entropy as the cost function tend to learn faster specially when the model is wrong(early stages), because cross-entropy avoids something called, learning slowdown.
+Measures the difference between predicted and actual target(cost/loss/error). It is used in classification problems where the output is a probability value between 0 and 1.
 
 Cross-entropy in the training process:
 - Forward Pass: Model makes predictions.
 - Loss Calculation: Cross-entropy loss is computed.
 - Backpropagation: Gradients are calculated based on this loss.
 - Optimization: Weights are updated to minimize the loss.
+
+Models trained with cross-entropy as the cost function tend to learn faster specially when the model is wrong(early stages), because cross-entropy avoids something called, learning slowdown.
 
 #### Learning Slowdown
 Learning slowdown is a phenomenon where the model learns very slowly because the gradient of the cost function is very small when the model is wrong. Cross-entropy avoids learning slowdown by providing a significant gradient even when predictions are far off, unlike mean squared error which can produce very small gradients for highly incorrect outputs, thus ensuring consistent and effective weight updates throughout training.
