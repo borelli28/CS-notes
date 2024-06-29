@@ -49,12 +49,6 @@ Reference counting: Keep track of how many references there are to an object, an
 
 Garbage collection: The runtime periodically looks for objects that are no longer reachable and deletes them.
 
-### Data Types
-- Booleans
-- Numbers
-- Strings
-- Nil
-
 ### Expressions
 
 #### Arithmetic
@@ -68,22 +62,3 @@ divide / me;
 - Operands: The subexpressions on either side of the operator.
 - Prefix: The operator comes before the operands. `+1`
 - Postfix: The operator comes after the operands. `1+`
-
-#### Comparison and Equality
-This operators always return a boolean value.
-```
-less < than;
-lessThan <= orEqual;
-greater > than;
-greaterThan >= orEqual;
-```
-
-#### Logical Operators
-- Not operator: `!`, negates the value of the operand.
-- And operator: `and`, returns true if both operands are true.
-- Or operator: `or`, returns true if either operand is true.
-
-#### Precedence and Grouping
-```
-var average = (min + max) / 2;
-```
