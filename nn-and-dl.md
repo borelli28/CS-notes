@@ -128,3 +128,4 @@ In a traditional neural network, each neuron has its own set of weights and bias
 Used after convolutional layers to reduce feature map size, improving efficiency and reducing overfitting..
 
 Max Pooling: Max pooling is the most commonly used pooling operation in CNNs. Selects the highest value in each small region of the feature map, preserving important features while reducing dimensions.
+![Max pooling](http://neuralnetworksanddeeplearning.com/images/tikz47.png)
