@@ -1,4 +1,4 @@
-# CS-notes
+# Computer Science Notes
 
 
 ### Contents
