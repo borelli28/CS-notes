@@ -98,3 +98,14 @@ This result holds even if the function has many inputs, and many outputs. For in
  
 ### The Vanishing Gradient Problem
 The vanishing gradient problem occurs when the gradients of the loss function approach zero as they are backpropagated through the network during training. This can cause the first layers to learn slowly, or not at all, resulting in poor performance overall in the network. This is caused by the activation functions used in the network, such as the sigmoid function, which can squash the output of the neurons to a very small range(e.g., 0 to 1 for sigmoid), causing the gradients to become very small. This can be mitigated by using activation functions that do not squash the output as much, such as the ReLU activation function.
+
+
+### Convolutional Neural Networks(CNNs)
+A powerful class of deep learning models primarily used for processing and analyzing grid-like data, such as images.
+
+#### Local Receptive Field
+Instead of connecting each input neuron to every neuron in the hidden layer, each hidden neuron is connected to only a small window of the input neurons.
+![Local receptive fields in CNNs](http://neuralnetworksanddeeplearning.com/images/tikz43.png)
+
+Stride: The number of pixels by which the window moves after each operation. In the example below, the stride is 1, meaning the window moves one pixel at a time.
+![Stride](/images/stride-ex.png)
