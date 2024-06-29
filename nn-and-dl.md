@@ -111,7 +111,7 @@ Stride: The number of pixels by which the window moves after each operation. In 
 ![Stride](/images/stride-ex.png)
 
 #### Features
-A specific patterns or characteristic in the input data that the network is trying to learn.
+A specific pattern or characteristic in the input data that the network is trying to learn.
 
 #### Feature Maps
 Feature maps are the outputs of convolutional layer in a CNN. They help the network find important features anywhere in the input.
