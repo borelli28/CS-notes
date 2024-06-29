@@ -1,4 +1,6 @@
-# Neural Networks and Deep Learning - http://neuralnetworksanddeeplearning.com/
+# Neural Networks and Deep Learning
+Sources:
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
 
 ### Perceptrons
