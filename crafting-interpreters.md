@@ -1,6 +1,8 @@
 # Crafting Interpreters - https://craftinginterpreters.com/
 
 
+## Welcome
+
 ### A Map of the Territory
 
 #### The Parts of  a Language
@@ -62,3 +64,5 @@ divide / me;
 - Operands: The subexpressions on either side of the operator.
 - Prefix: The operator comes before the operands. `+1`
 - Postfix: The operator comes after the operands. `1+`
+
+## A Tree-Walk Interpreter
