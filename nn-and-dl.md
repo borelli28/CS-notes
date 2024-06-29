@@ -51,7 +51,8 @@ Process:
 Weight Adjustment: The weights are adjusted slightly in the direction that reduces the error. This adjustment is controlled by a parameter called the learning rate, which determines how big the steps are.
 
 #### Activation Function
-The activation function is the function that is applied to the weighted sum of the inputs of a neuron. Its primary purpose is to introduce non-linearity into the network, allowing it to learn complex patterns and relationships in the data. The activation function is usually a sigmoid function or a rectified linear unit (ReLU).
+Activation functions transform the weights of inputs of a neuron into an output signal, introducing non-linearity(Sigmoid, ReLU) that allows neural networks to learn complex patterns.
+![ReLU activation function](images/relu-activ-fn.png)
 
 ### Cross-Entropy Cost Function
 Measures the difference between predicted and actual target(cost/loss/error). It is used in classification problems where the output is a probability value between 0 and 1.
