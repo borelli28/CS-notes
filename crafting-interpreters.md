@@ -65,4 +65,4 @@ divide / me;
 - Prefix: The operator comes before the operands. `+1`
 - Postfix: The operator comes after the operands. `1+`
 
-## A Tree-Walk Interpreter
+## A Bytecode Virtual Machine
