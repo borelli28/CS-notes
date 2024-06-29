@@ -1,6 +1,3 @@
-# Computer Science Notes
-
-
 ### Contents
 [Cybersecurity Framework 2.0](https://github.com/borelli28/CS-notes/blob/main/csf.txt)
 
