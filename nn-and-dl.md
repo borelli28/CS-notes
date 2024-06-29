@@ -131,7 +131,7 @@ In a traditional neural network, each neuron has its own set of weights and bias
 
 - Shared weights: Weights defining the feature map.
 - Shared biases: Biases defining the feature map.
-- Kernel of filter: Defined by the shared weights and shared biases.
+- Kernel or filter: Defined by the shared weights and shared biases.
 
 #### Pooling Layers
 Used after convolutional layers to reduce feature map size, improving efficiency and reducing overfitting..
