@@ -66,3 +66,17 @@ divide / me;
 - Postfix: The operator comes after the operands. `1+`
 
 ## A Bytecode Virtual Machine
+
+### Chunks of Bytecode
+Chunk: A sequence of bytecode instructions that the VM executes.
+
+Dynamic array
+```c
+typedef struct {
+    int count;
+    int capacity;
+    uint8_t* code;
+} Chunk;
+```
+- capacity: The number of elements in the array we have allocated.
+- count: The number of elements in the array that are actually in use.
