@@ -103,6 +103,15 @@ The vanishing gradient problem occurs when the gradients of the loss function ap
 ### Convolutional Neural Networks(CNNs)
 A powerful class of deep learning models primarily used for processing and analyzing grid-like data, such as images.
 
+![Full CNN](http://neuralnetworksanddeeplearning.com/images/tikz49.png)
+- 28x28 input neurons.
+- Convolutional layer with 5x5 local receptive fields, and 3 feature maps.
+    - The result is a layer of 3x24x24 hidden feature neurons.
+- Max pooling layer with 2x2 pooling windows, across each of the 3
+ feature maps.
+    - The result is a layer of 3x12x12 hidden feature neurons.
+- Fully connected layer with 10 output neurons.
+
 #### Local Receptive Field
 Instead of connecting each input neuron to every neuron in the hidden layer, each hidden neuron is connected to only a small window of the input neurons.
 ![Local receptive fields in CNNs](http://neuralnetworksanddeeplearning.com/images/tikz43.png)
