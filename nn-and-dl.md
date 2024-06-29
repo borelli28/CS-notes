@@ -119,3 +119,7 @@ Feature maps are the outputs of convolutional layer in a CNN. They help the netw
 
 #### Shared Weights and Biases
 In a traditional neural network, each neuron has its own set of weights and biases. In a CNN, neurons in the same feature map share the same weights and biases.
+
+- Shared weights: Weights defining the feature map.
+- Shared biases: Biases defining the feature map.
+- Kernel of filter: Defined by the shared weights and shared biases.
