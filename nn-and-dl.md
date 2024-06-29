@@ -87,3 +87,9 @@ New Loss = Original Loss + λ(Lambda) * (sum of squared weights)
 ```
 λ is a hyperparameter that controls the strength of the regularization effect on the model. When λ = 0, there is no regularization effect. As λ increases, the regularization effect becomes stronger.
 ![Regularization with Lambda](https://miro.medium.com/v2/resize:fit:1098/1*ODhXW4H9ZRTKTzXOAyStAg.png)
+
+### Universal Approximation Theorem(Universality Theorem)
+The Universal Approximation Theorem states that a neural network with a single hidden layer can approximate any continuous function to any desired degree of accuracy.
+
+This result holds even if the function has many inputs, and many outputs. For instance, here is a network computing a function with 3 inputs and 2 outputs:
+![Function with multiple input/outputs](/images/neural-fn-2.png)
