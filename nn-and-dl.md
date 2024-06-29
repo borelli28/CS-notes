@@ -109,3 +109,13 @@ Instead of connecting each input neuron to every neuron in the hidden layer, eac
 
 Stride: The number of pixels by which the window moves after each operation. In the example below, the stride is 1, meaning the window moves one pixel at a time.
 ![Stride](/images/stride-ex.png)
+
+#### Features
+A specific patterns or characteristic in the input data that the network is trying to learn.
+
+#### Feature Maps
+Feature maps are the outputs of convolutional layer in a CNN. They help the network find important features anywhere in the input.
+![Feature map of an image](https://debuggercafe.com/wp-content/uploads/2020/04/layer_0-1536x1536.png)
+
+#### Shared Weights and Biases
+In a traditional neural network, each neuron has its own set of weights and biases. In a CNN, neurons in the same feature map share the same weights and biases.
