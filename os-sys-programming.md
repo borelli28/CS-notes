@@ -305,3 +305,26 @@ Virtual Address --> Page Table --> Physical Address
 Bus: Common set of wires for communication among hardware devices
 
 ### Lecture 18 - General I/O, Storage Devices, and Performance
+Transferring data to/from controller
+- Programmed I/O:
+    - Each byte is transferred via processor in/out or load/store
+    - CPU waits for I/O operation to complete
+- Direct Memory Access(DMA):
+    - I/O controller transfers data directly to/from memory
+    - CPU is free to do other work
+
+Magnetic Disks
+- Seek time: Time to position disk head over track
+- Rotational latency: Time for desired sector to rotate under head
+- Transfer time: Transfer the block of bits(sector) under head
+
+Solid State Drives(SSD)
+- Trapped electrons distinguish between 0 and 1
+- No moving parts
+- Can only write to empty blocks(erase before write)
+
+Ways of measuring performance - Time(s) and Rates(op/s)
+- Latency: Time to complete a task or operation
+- Response time: Time to initiate an operation and get its response
+- Throughput or Bandwidth: Number of operations completed per unit of time
+- Start up or overhead time: Time to start a task or operation
