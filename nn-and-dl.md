@@ -1,7 +1,7 @@
 # Neural Networks and Deep Learning
 Sources:
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
-
+- [Code Emporium YT](https://www.youtube.com/@CodeEmporium/videos)
 
 ### Perceptrons
 A perceptron is a type of artifical neural network develop in the 1950s and 60s by scientist Frank Rosenblatt.
