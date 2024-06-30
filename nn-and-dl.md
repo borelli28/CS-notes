@@ -36,7 +36,11 @@ Recurrent neural networks: RNNs allowed feedback loops. The idea in these models
 A gradient descent is an iterative optimization algorithm used to minimize a function by moving in the direction of the steepest descent as defined by the negative of the gradient. Gradient descent is used to adjust the weights and biases to minimize the cost function.
 ![Gradient descent](/images/gradient-descent.png)
 
-Cost Function(loss function): A function that measures how far off our predictions are from the actual target values.
+Cost Function(loss function): A function that measures how far off our predictions we are from the actual target values.
+
+Gradient descent algorithm in tensorflow:
+![Gradien descent in tensorflow](/images/gradient-descent-tf.png)
+lr = learning rate
 
 ### Backpropagation
 Backpropagation is a fast algorithm for computing the gradient of the cost function, also called the error, or the loss(How far the output was from the target). Backpropagation is short for, "backward propagation of errors".
