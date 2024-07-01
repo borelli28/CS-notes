@@ -328,3 +328,12 @@ Ways of measuring performance - Time(s) and Rates(op/s)
 - Response time: Time to initiate an operation and get its response
 - Throughput or Bandwidth: Number of operations completed per unit of time
 - Start up or overhead time: Time to start a task or operation
+
+### Lecture 19 - File Systems 1: Performance, Queueing Theory, and File System Design
+Little's Law: N(Jobs) = λ(Jobs/s) * L(s)
+- N(Jobs): The average number of jobs in the system
+- λ(Jobs/s): The average arrival rate of jobs per second
+- L(s): The average time a job spends in the system, in seconds
+- Applies to any stable system
+    - In a stable system: Averge arrival rate = Average departure rate
+    - Can be applied to any part of the system(queue, processing stages, etc.)
