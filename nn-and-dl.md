@@ -160,5 +160,11 @@ h = f(x, h-1)
 Adding recurrence to neurons by adding variable h, which holds the state of the neuron.
 ![Recurrent neuron](/images/recurrent-neuron.png)
 
-Sequence modeling: A key application of RNNs that enables the processing and analysis of sequences of data by capturing relationships between elements in the sequence.
+#### Sequence modeling
+A key application of RNNs that enables the processing and analysis of sequences of data by capturing relationships between elements in the sequence.
 ![Sequence modeling for RNNs](/images/seq-modeling.png)
+
+#### Encoding language for a Neural Network
+Neural networks cannot interpret words("deep", "learning"), but they can interpret numbers([0.1, 0.8, 0.6]).
+
+Embedding: A technique used to convert words into numerical vectors([0.1, 0.8, 0.6]) that can be understood by neural networks.
