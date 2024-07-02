@@ -149,5 +149,5 @@ Max Pooling: Max pooling is the most commonly used pooling operation in CNNs. Se
 
 Sequence modeling: A key application of RNNs that enables the processing and analysis of sequences of data by capturing relationships between elements in the sequence.
 
-Adding recurrent to neurons by adding variable h, which holds the state of the neuron.
+Adding recurrence to neurons by adding variable h, which holds the state of the neuron.
 ![Recurrent neuron](/images/recurrent-neuron.png)
