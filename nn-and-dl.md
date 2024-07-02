@@ -178,3 +178,19 @@ Gated cell: A cell in an LSTM that controls the flow of information in and out o
 A mechanism that attends(focus) to the most important parts of an input sequence.
 
 Positional encoding: A technique used to encode the position of each element in the input sequence, allowing the self-attention mechanism to consider the order of the elements.
+
+Self-Attention steps:
+- Encode positional information, outputs a positional embedding.
+- Extract query, key, and value from positional embedding.
+    - Query: The question being asked.
+    - Key: The potential answer identifier.
+    - Value: The actual answer content.
+- Compute attention weighting, by comparing similarity between query and key.
+    - Attention formula:
+    ![Attention formula](https://jalammar.github.io/images/t/self-attention-matrix-calculation-2.png)
+    - Softmax function: Converts the attention scores into probabilities(o to 1).
+- Extract features with high attention.
+![Formula for attention value outputs](/images/attention-value-formula.png)
+
+Multi-Head Attention: Each head is their own attention mechanism, allowing the model to focus on different parts of the input sequence.
+![Multi-head attention](/images/multi-head.png)
