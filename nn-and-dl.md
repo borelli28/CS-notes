@@ -146,6 +146,16 @@ Max Pooling: Max pooling is the most commonly used pooling operation in CNNs. Se
 ![Max pooling](http://neuralnetworksanddeeplearning.com/images/tikz47.png)
 
 ### Recurrent Neural Networks(RNNs)
+Neural networks that hold a state that is updated at each time step, as a sequence of data is processed. This allows RNNs to capture relationships between elements in the sequence.
+
+Formula to apply recurrence relation at every time step:
+```
+cell state = function wt weights(input, old state)
+```
+or
+```
+h = f(x, h-1)
+```
 
 Sequence modeling: A key application of RNNs that enables the processing and analysis of sequences of data by capturing relationships between elements in the sequence.
 
