@@ -337,3 +337,16 @@ Little's Law: N(Jobs) = λ(Jobs/s) * L(s)
 - Applies to any stable system
     - In a stable system: Averge arrival rate = Average departure rate
     - Can be applied to any part of the system(queue, processing stages, etc.)
+
+### Lecture 20 - File Systems 2: File System Design
+File system: Layer of OS that transform block interface of disks into files, directories, etc.
+
+Classic OS sitation: Take limited hardware interface and provide a more convenient/useful interface
+- Naming: Find file by name
+- Organize file names with directories
+- Organization: Map files to blocks
+- Protection: Enforce access restrictions
+- Reliability: Keep files intact despite crashes, hardware failures, etc.
+
+FAT(File Allocation Table): Directories
+![FAT directories](/images/fat-dir.png)
