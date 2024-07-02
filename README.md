@@ -18,3 +18,5 @@
 [Crafting Interpreters](https://github.com/borelli28/CS-notes/blob/main/crafting-interpreters.md)
 
 [Data Structures and Algorithms](https://github.com/borelli28/CS-notes/blob/main/dsa)
+
+[Network+](https://github.com/borelli28/CS-notes/blob/main/network-plus.md)
