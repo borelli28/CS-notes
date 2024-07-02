@@ -168,3 +168,13 @@ A key application of RNNs that enables the processing and analysis of sequences 
 Neural networks cannot interpret words("deep", "learning"), but they can interpret numbers([0.1, 0.8, 0.6]).
 
 Embedding: A technique used to convert words into numerical vectors([0.1, 0.8, 0.6]) that can be understood by neural networks.
+
+#### Long Short-Term Memory(LSTM)
+A type of RNN that is capable of learning long-term dependencies in data. It does this by maintaining a cell state that can be updated, added to, or removed, allowing it to remember or forget information over long periods of time.
+
+Gated cell: A cell in an LSTM that controls the flow of information in and out of the cell state.
+
+#### Self-Attention
+A mechanism that attends(focus) to the most important parts of an input sequence.
+
+Positional encoding: A technique used to encode the position of each element in the input sequence, allowing the self-attention mechanism to consider the order of the elements.
