@@ -144,3 +144,10 @@ Used after convolutional layers to reduce feature map size, improving efficiency
 
 Max Pooling: Max pooling is the most commonly used pooling operation in CNNs. Selects the highest value in each small region of the feature map, preserving important features while reducing dimensions.
 ![Max pooling](http://neuralnetworksanddeeplearning.com/images/tikz47.png)
+
+### Recurrent Neural Networks(RNNs)
+
+Sequence modeling: A key application of RNNs that enables the processing and analysis of sequences of data by capturing relationships between elements in the sequence.
+
+Adding recurrent to neurons by adding variable h, which holds the state of the neuron.
+![Recurrent neuron](/images/recurrent-neuron.png)
