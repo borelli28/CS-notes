@@ -113,10 +113,19 @@ Tasks in computer vision:
 - Regression: Predicting a continuous value.
 - Classification: Predicting a category.
 
-CNN in classification task example
+CNNs are divided into 2 main parts:
+- Feature learning: Extracting features using convolutional and pooling layers.
+- Neural network architecture: Making predictions using fully connected layers. The architecture depends of which task we are trying to solve.
+    - Classication: Outputs a single value(Yes or No)
+    - Object detection: Outputs what objects are in the image and where they are.
+    - Segmentation: Outputs the input image with each pixel labeled with the object it belongs to.
+    - Probabilistic control: Outputs probability distributions over possible actions or control decisions, rather than deterministic values. E.g., self-driving cars.
+![CNN applications examples](/images/cnn-applications.png)
+
+CNN in classification task
 ![CNN classification task example](/images/cnn-classification-ex.png)
 
-CNN layers and process during classification example
+CNN layers and process during classification
 ![Classification process example](/images/cnn-layers.png)
 
 Feature extraction with convolution
