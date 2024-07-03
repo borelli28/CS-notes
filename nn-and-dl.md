@@ -114,7 +114,10 @@ Tasks in computer vision:
 - Classification: Predicting a category.
 
 CNN in classification task example
-![CNN classification task](/images/cnn-classification-ex.png)
+![CNN classification task example](/images/cnn-classification-ex.png)
+
+CNN layers and process during classification example
+![Classification process example](/images/cnn-layers.png)
 
 Feature extraction with convolution
 ![Feature extraction process in CNN](/images/cnn-feature-extr.png)
@@ -139,7 +142,7 @@ A specific pattern or characteristic in the input data that the network is tryin
 ![Features in cnn](/images/features-cnn.png)
 
 #### Feature Maps
-Feature maps are the outputs of convolutional layer in a CNN. They help the network find important features anywhere in the input.
+Feature maps are the outputs of a convolutional layer in a CNN. They help the network find important features anywhere in the input.
 ![Feature map of an image](https://debuggercafe.com/wp-content/uploads/2020/04/layer_0-1536x1536.png)
 
 #### Shared Weights and Biases
