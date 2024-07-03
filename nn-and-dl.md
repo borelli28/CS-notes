@@ -125,9 +125,6 @@ CNNs are divided into 2 main parts:
 CNN in classification task
 ![CNN classification task example](/images/cnn-classification-ex.png)
 
-CNN layers and process during classification
-![Classification process example](/images/cnn-layers.png)
-
 Feature extraction with convolution
 ![Feature extraction process in CNN](/images/cnn-feature-extr.png)
 
