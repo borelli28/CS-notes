@@ -357,4 +357,4 @@ Hard link: Mapping from a file name to an inode in the directory structure
 Soft link, symbolic link, or shortcut: Mapping from a file name to another file name
 
 Buffer cache: Memory used to cache kernel resources, including disk blocks and name translations
-- Delayed write: Write to disk only when buffer is full
+- Delayed write: Write to disk only when buffer is full, or when buffer is flushed periodically
