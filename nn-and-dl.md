@@ -32,7 +32,7 @@ Input layer --> Hidden layer --> Output layer
 
 Recurrent neural networks: RNNs allowed feedback loops. The idea in these models is to have neurons which fire for some limited duration of time, before becoming dormant. Loops don't cause problems in such a model, since a neuron's output only affects its input at some later time, not instantaneously.
 
-### Gradient Descent
+#### Gradient Descent
 A gradient descent is an iterative optimization algorithm used to minimize a function by moving in the direction of the steepest descent as defined by the negative of the gradient. Gradient descent is used to adjust the weights and biases to minimize the cost function.
 ![Gradient descent](/images/gradient-descent.png)
 
@@ -42,7 +42,7 @@ Gradient descent algorithm in tensorflow:
 ![Gradien descent in tensorflow](/images/gradient-descent-tf.png)
 lr = learning rate
 
-### Backpropagation
+#### Backpropagation
 Backpropagation is a fast algorithm for computing the gradient of the cost function, also called the error, or the loss(How far the output was from the target). Backpropagation is short for, "backward propagation of errors".
 
 ![Backpropagation](https://editor.analyticsvidhya.com/uploads/18870backprop2.png)
@@ -60,7 +60,7 @@ Weight Adjustment: The weights are adjusted slightly in the direction that reduc
 Activation functions transform the weights of inputs of a neuron into an output signal, introducing non-linearity(Sigmoid, ReLU) that allows neural networks to learn complex patterns.
 ![ReLU activation function](images/relu-activ-fn.png)
 
-### Cross-Entropy Cost Function
+#### Cross-Entropy Cost Function
 Measures the difference between predicted and actual target(cost/loss/error). It is used in classification problems where the output is a probability value between 0 and 1.
 
 Cross-entropy in the training process:
@@ -74,10 +74,10 @@ Models trained with cross-entropy as the cost function tend to learn faster spec
 #### Learning Slowdown
 Learning slowdown is a phenomenon where the model learns very slowly because the gradient of the cost function is very small when the model is wrong. Cross-entropy avoids learning slowdown by providing a significant gradient even when predictions are far off, unlike mean squared error which can produce very small gradients for highly incorrect outputs, thus ensuring consistent and effective weight updates throughout training.
 
-### Learning Rate
+#### Learning Rate
 The learning rate is a hyperparameter that controls how much the weights are being adjusted in the neural network with respect to the loss gradient. The lower the value, the slower we travel along the downward slope(the slower we get to 0 loss in our model). A typical range for the learning rate is between 0.0001 and 1.0.
 
-### Overfitting
+#### Overfitting
 Overfitting is a problem in deep learning where a model learns the training data too well, including its noise and peculiarities, to the point where it negatively impacts the model ability to generalize to new data.
 
 To detect overfitting:
@@ -97,13 +97,13 @@ New Loss = Original Loss + λ(Lambda) * (sum of squared weights)
 λ is a hyperparameter that controls the strength of the regularization effect on the model. When λ = 0, there is no regularization effect. As λ increases, the regularization effect becomes stronger.
 ![Regularization with Lambda](https://miro.medium.com/v2/resize:fit:1098/1*ODhXW4H9ZRTKTzXOAyStAg.png)
 
-### Universal Approximation Theorem(Universality Theorem)
+#### Universal Approximation Theorem(Universality Theorem)
 The Universal Approximation Theorem states that a neural network with a single hidden layer can approximate any continuous function to any desired degree of accuracy.
 
 This result holds even if the function has many inputs, and many outputs. For instance, here is a network computing a function with 3 inputs and 2 outputs:
 ![Function with multiple input/outputs](/images/neural-fn-2.png)
  
-### The Vanishing Gradient Problem
+#### The Vanishing Gradient Problem
 The vanishing gradient problem occurs when the gradients of the loss function approach zero as they are backpropagated through the network during training. This can cause the first layers to learn slowly, or not at all, resulting in poor performance overall in the network. This is caused by the activation functions used in the network, such as the sigmoid function, which can squash the output of the neurons to a very small range(e.g., 0 to 1 for sigmoid), causing the gradients to become very small. This can be mitigated by using activation functions that do not squash the output as much, such as the ReLU activation function.
 
 ### Convolutional Neural Networks(CNNs)
