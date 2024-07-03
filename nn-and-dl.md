@@ -123,7 +123,6 @@ Filters: Two-dimensional arrays of numbers. They are used to extract features fr
 
 #### Convolution
 Multiplying the filter with a small window of the input data, then summing the results to produce a single output.
-
 ![Convolution example](/images/conv-ex0.png)
 ![Convolution example](/images/conv-ex1.png)
 ![Convolution example](/images/conv-ex2.png)
@@ -151,10 +150,11 @@ In a traditional neural network, each neuron has its own set of weights and bias
 - Kernel or filter: Defined by the shared weights and shared biases.
 
 #### Pooling Layers
-Used after convolutional layers to reduce feature map size, improving efficiency and reducing overfitting..
+Used after convolutional layers to reduce feature map size, improving efficiency and reducing overfitting.
 
 Max Pooling: Max pooling is the most commonly used pooling operation in CNNs. Selects the highest value in each small region of the feature map, preserving important features while reducing dimensions.
 ![Max pooling](http://neuralnetworksanddeeplearning.com/images/tikz47.png)
+![Pooling example](/images/pooling-cnn.png)
 
 ### Recurrent Neural Networks(RNNs)
 Neural networks that hold a state that is updated at each time step, as a sequence of data is processed. This allows RNNs to capture relationships between elements in the sequence.
