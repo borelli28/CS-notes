@@ -113,6 +113,9 @@ Tasks in computer vision:
 - Regression: Predicting a continuous value.
 - Classification: Predicting a category.
 
+CNN in classification task example
+![CNN classification task](/images/cnn-classification-ex.png)
+
 Feature extraction with convolution
 ![Feature extraction process in CNN](/images/cnn-feature-extr.png)
 
