@@ -107,7 +107,11 @@ This result holds even if the function has many inputs, and many outputs. For in
 The vanishing gradient problem occurs when the gradients of the loss function approach zero as they are backpropagated through the network during training. This can cause the first layers to learn slowly, or not at all, resulting in poor performance overall in the network. This is caused by the activation functions used in the network, such as the sigmoid function, which can squash the output of the neurons to a very small range(e.g., 0 to 1 for sigmoid), causing the gradients to become very small. This can be mitigated by using activation functions that do not squash the output as much, such as the ReLU activation function.
 
 ### Convolutional Neural Networks(CNNs)
-A powerful class of deep learning models primarily used for processing and analyzing grid-like data, such as images.
+A feed-forward neural networks that is generally used for computer vision tasks.
+
+Tasks in computer vision:
+- Regression: Predicting a continuous value.
+- Classification: Predicting a category.
 
 ![Full CNN](http://neuralnetworksanddeeplearning.com/images/tikz49.png)
 - 28x28 input neurons.
