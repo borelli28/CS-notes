@@ -118,7 +118,9 @@ Feature extraction with convolution
 
 Filters: Two-dimensional arrays of numbers. They are used to extract features from the input data.
 
-Convolution: Multiplying the filter with a small window of the input data, then summing the results to produce a single output.
+#### Convolution
+Multiplying the filter with a small window of the input data, then summing the results to produce a single output.
+
 ![Convolution example](/images/conv-ex0.png)
 ![Convolution example](/images/conv-ex1.png)
 ![Convolution example](/images/conv-ex2.png)
