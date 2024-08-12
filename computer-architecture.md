@@ -1,4 +1,5 @@
 # UC Berkeley CS61C:  Great Ideas in Computer Architecture - [UC Berkeley CS 61C Great Ideas in Computer Architecture](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk)
+<<<<<<< HEAD
 
 
 ### Lecture 1 - Intro
@@ -16,3 +17,5 @@
 6) Dependability via redundancy: Redundancy so that a failing piece doesn't make the whole system fail
 
 Inside computers, everything is a number.
+=======
+>>>>>>> Added computer architecture notes
