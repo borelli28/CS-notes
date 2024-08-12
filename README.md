@@ -13,8 +13,6 @@
 
 [Practical Malware Analysis Book Notes](https://github.com/borelli28/CS-notes/blob/main/practical-mal-anal.txt)
 
-[Data Structures and Algorithms](https://github.com/borelli28/CS-notes/blob/main/dsa)
-
 [Operating Systems](https://github.com/borelli28/CS-notes/blob/main/os-sys-programming.md)
 
 [Computer Architecture](https://github.com/borelli28/CS-notes/blob/main/computer-architecture.md)
