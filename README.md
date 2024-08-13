@@ -15,6 +15,8 @@
 
 [Operating Systems](https://github.com/borelli28/CS-notes/blob/main/os-sys-programming.md)
 
+[The Structure and Interpretation of Computer Programs](https://github.com/borelli28/CS-notes/blob/main/computer-programs.md)
+
 [Crafting Interpreters](https://github.com/borelli28/CS-notes/blob/main/crafting-interpreters.md)
 
 [Neural Networks and Deep Learning](https://github.com/borelli28/CS-notes/blob/main/nn-and-dl.md)
